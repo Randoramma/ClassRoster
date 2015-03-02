@@ -13,6 +13,7 @@
 		D0C0F39F1A94512C009F6EDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C0F39E1A94512C009F6EDA /* Images.xcassets */; };
 		D0C0F3A21A94512C009F6EDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0C0F3A01A94512C009F6EDA /* LaunchScreen.xib */; };
 		D0C0F3AE1A94512C009F6EDA /* ClassRosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0F3AD1A94512C009F6EDA /* ClassRosterTests.swift */; };
+		D0C0F3B81A96DEFC009F6EDA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0F3B71A96DEFC009F6EDA /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D0C0F3A71A94512C009F6EDA /* ClassRosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassRosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C0F3AC1A94512C009F6EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0C0F3AD1A94512C009F6EDA /* ClassRosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRosterTests.swift; sourceTree = "<group>"; };
+		D0C0F3B71A96DEFC009F6EDA /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../../../../../Desktop/Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +79,10 @@
 		D0C0F3941A94512C009F6EDA /* ClassRoster */ = {
 			isa = PBXGroup;
 			children = (
+				D0C0F3BB1A96E613009F6EDA /* Controller */,
+				D0C0F3BA1A96E60D009F6EDA /* View */,
+				D0C0F3B91A96E606009F6EDA /* Model */,
 				D0C0F3971A94512C009F6EDA /* AppDelegate.swift */,
-				D0C0F3991A94512C009F6EDA /* ViewController.swift */,
-				D0C0F39B1A94512C009F6EDA /* Main.storyboard */,
 				D0C0F39E1A94512C009F6EDA /* Images.xcassets */,
 				D0C0F3A01A94512C009F6EDA /* LaunchScreen.xib */,
 				D0C0F3951A94512C009F6EDA /* Supporting Files */,
@@ -110,6 +113,30 @@
 				D0C0F3AC1A94512C009F6EDA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0C0F3B91A96E606009F6EDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0F3B71A96DEFC009F6EDA /* Person.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D0C0F3BA1A96E60D009F6EDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0F39B1A94512C009F6EDA /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D0C0F3BB1A96E613009F6EDA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0F3991A94512C009F6EDA /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C0F3B81A96DEFC009F6EDA /* Person.swift in Sources */,
 				D0C0F39A1A94512C009F6EDA /* ViewController.swift in Sources */,
 				D0C0F3981A94512C009F6EDA /* AppDelegate.swift in Sources */,
 			);
